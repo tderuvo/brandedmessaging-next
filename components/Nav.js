@@ -1,6 +1,6 @@
 'use client';
 
-import Link     from 'next/link';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 export default function Nav() {
@@ -10,12 +10,12 @@ export default function Nav() {
     <nav className="nav">
       <Link href="/" className="logo">
         <div className="logo-mark">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
                   fill="white" fillOpacity="0.95"/>
-            <circle cx="8.5"  cy="11" r="1.2" fill="#3b82f6"/>
-            <circle cx="12"   cy="11" r="1.2" fill="#3b82f6"/>
-            <circle cx="15.5" cy="11" r="1.2" fill="#3b82f6"/>
+            <circle cx="8.5"  cy="11" r="1.2" fill="rgba(255,255,255,0.7)"/>
+            <circle cx="12"   cy="11" r="1.2" fill="rgba(255,255,255,0.7)"/>
+            <circle cx="15.5" cy="11" r="1.2" fill="rgba(255,255,255,0.7)"/>
           </svg>
         </div>
         <div className="logo-text">
@@ -25,11 +25,11 @@ export default function Nav() {
       </Link>
 
       <div className="nav-links">
-        <Link href="/"           className={`nav-link ${path === '/'                ? 'active' : ''}`}>Home</Link>
-        <Link href="/guides"     className={`nav-link ${path === '/guides'          ? 'active' : ''}`}>Guides</Link>
-        <Link href="/newsletter" className={`nav-link ${path === '/newsletter'      ? 'active' : ''}`}>Newsletter</Link>
-        <Link href="/about"      className={`nav-link ${path === '/about'           ? 'active' : ''}`}>About</Link>
-        <Link href="/contact"    className={`nav-link ${path === '/contact'         ? 'active' : ''}`}>Contact</Link>
+        <Link href="/"           className={`nav-link ${path === '/'           ? 'active' : ''}`}>Home</Link>
+        <Link href="/guides"     className={`nav-link ${path === '/guides'     ? 'active' : ''}`}>Guides</Link>
+        <Link href="/newsletter" className={`nav-link ${path === '/newsletter' ? 'active' : ''}`}>Newsletter</Link>
+        <Link href="/about"      className={`nav-link ${path === '/about'      ? 'active' : ''}`}>About</Link>
+        <Link href="/contact"    className={`nav-link ${path === '/contact'    ? 'active' : ''}`}>Contact</Link>
       </div>
 
       <Link href="/managed-services" className="nav-cta">Managed Services →</Link>
