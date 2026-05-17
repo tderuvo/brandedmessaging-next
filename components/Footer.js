@@ -35,6 +35,10 @@ export default function Footer() {
             </svg>
           </a>
         </div>
+        <nav className="footer-legal" aria-label="Legal">
+          <Link href="/terms">Terms &amp; Conditions</Link>
+          <Link href="/privacy">Privacy Policy</Link>
+        </nav>
         <p className="footer-copy">
           &copy; 2026 <Link href="/">Branded Messaging</Link> &mdash; The human-friendly side of RCS across North America.
         </p>
