@@ -13,6 +13,7 @@ export default function Footer() {
           <Link href="/guides">Campaign Guides</Link>
           <Link href="/newsletter">Newsletter</Link>
           <Link href="/managed-services">Managed Services</Link>
+          <Link href="/canada">Canadian Market</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
         </nav>
@@ -40,7 +41,7 @@ export default function Footer() {
           <Link href="/privacy">Privacy Policy</Link>
         </nav>
         <p className="footer-copy">
-          &copy; 2026 <Link href="/">Branded Messaging</Link> &mdash; The human-friendly side of RCS across North America.
+          &copy; 2026 <Link href="/">Branded Messaging</Link> &mdash; The human-friendly side of RCS across North America. &middot; Built in Canada.
         </p>
       </div>
     </footer>

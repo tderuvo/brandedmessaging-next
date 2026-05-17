@@ -92,7 +92,7 @@ export default function Home() {
                 <strong>
                   <Link href="/newsletter" className="feature-link">A2P Messaging Newsletter</Link>
                 </strong>
-                <span>Weekly trends, carrier updates &amp; RCS adoption insights for North America.</span>
+                <span>Weekly trends, Canadian carrier updates, and branded messaging insights across North America.</span>
               </div>
             </div>
             <div className="feature-row">
@@ -184,6 +184,38 @@ export default function Home() {
           <p className="home-section-body">
             That is the fall up from SMS: better when possible, reachable when necessary.
           </p>
+        </div>
+      </section>
+
+      {/* ── THE CANADIAN MESSAGING LANDSCAPE ── */}
+      <section className="home-section" aria-labelledby="canada-heading">
+        <div className="home-section-inner home-section-card home-section-canada">
+          <p className="section-label">Canadian Coverage</p>
+          <h2 id="canada-heading" className="home-section-title">The Canadian Messaging Landscape</h2>
+          <p className="home-section-body">
+            Canada occupies a distinct position in the North American messaging market. Canadian
+            carriers are advancing their RCS capabilities, and businesses across retail, banking,
+            healthcare, and logistics are beginning to explore what verified, branded messaging
+            can deliver for the customer experience.
+          </p>
+          <p className="home-section-body">
+            The Canadian market reflects particular patterns in how trust and recognition shape
+            the customer relationship. A message that arrives with a verified business name, a
+            recognizable logo, and a clear call to action lands differently than one from an
+            unknown number — and in markets where customer trust is already a competitive
+            advantage, that difference compounds.
+          </p>
+          <p className="home-section-body">
+            We track Canadian carrier developments, business messaging strategy, and branded
+            messaging trends as they evolve across the country and across North America.
+          </p>
+          <Link href="/canada" className="home-section-link">
+            Explore Canadian messaging insights
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </Link>
         </div>
       </section>
 
