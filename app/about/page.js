@@ -101,8 +101,8 @@ export default function About() {
       <p className="section-title">The Team</p>
       <div className="team-grid">
         <div className="card team-card">
-          <div className="team-avatar" style={{background:'linear-gradient(135deg,#3b82f6,#06b6d4)'}}>AD</div>
-          <h3>Antonio De Ruvo</h3>
+          <div className="team-avatar" style={{background:'linear-gradient(135deg,#c41230,#e8294a)'}}>MC</div>
+          <h3>Marc Collier</h3>
           <div className="role">Founder &amp; CEO</div>
           <p>15 years in mobile messaging and A2P infrastructure across North American carriers. Passionate about making rich messaging accessible to every business.</p>
         </div>
