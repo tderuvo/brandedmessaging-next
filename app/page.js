@@ -297,6 +297,35 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── PHILOSOPHY CARD ── */}
+      <section className="home-section home-philosophy" aria-labelledby="philosophy-heading">
+        <div className="philosophy-card card card-lg">
+          <div className="philosophy-card-left">
+            <p className="section-label">Philosophy</p>
+            <blockquote className="philosophy-quote">
+              &ldquo;Better when possible. Reachable when necessary.
+              Compatible with everything that already works.&rdquo;
+            </blockquote>
+            <p className="philosophy-desc">
+              A thought leadership perspective on how business messaging is evolving
+              from anonymous SMS into trusted, recognizable, branded communication —
+              and why the transition is an evolution, not a disruption.
+            </p>
+          </div>
+          <div className="philosophy-card-right">
+            <p className="philosophy-eyebrow">Signature Article</p>
+            <h3 id="philosophy-heading">The Fall Up From SMS</h3>
+            <Link href="/the-fall-up-from-sms" className="btn-primary">
+              Read the Philosophy
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ── FINAL CTA ── */}
       <section className="home-cta-section" aria-label="Get started with campaign guides">
         <div className="home-cta-inner card card-lg">

@@ -585,6 +585,164 @@ footer a:hover { color: var(--text); }
 .response-dot   { width: 7px; height: 7px; background: var(--green); border-radius: 50%; animation: blink 2s ease-in-out infinite; }
 .response-badge span { font-size: 0.78rem; color: var(--green); font-weight: 500; }
 
+/* ── ARTICLE / THOUGHT LEADERSHIP ───────────────────── */
+.article-hero {
+  max-width: 760px; margin: 0 auto 1rem;
+  padding-top: 1rem; text-align: center;
+}
+.article-hero h1 {
+  font-size: clamp(2.3rem, 5.2vw, 3.8rem);
+  font-weight: 800; letter-spacing: -2.2px; line-height: 1.05;
+  color: var(--text); margin-bottom: 1.5rem;
+}
+.article-hero h1 em {
+  font-style: normal;
+  background: linear-gradient(90deg, var(--red), #e8294a);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.article-subtitle {
+  font-size: 1.12rem; color: var(--muted); line-height: 1.75;
+  max-width: 620px; margin: 0 auto 1.8rem;
+}
+.article-meta {
+  display: flex; align-items: center; justify-content: center;
+  gap: 0.7rem; flex-wrap: wrap;
+  font-size: 0.77rem; color: var(--muted-light); font-weight: 500; letter-spacing: 0.02em;
+}
+.article-meta-dot { width: 3px; height: 3px; background: var(--muted-light); border-radius: 50%; display: inline-block; }
+.article-red-rule {
+  width: 48px; height: 3px;
+  background: linear-gradient(90deg, var(--red), #e8294a);
+  margin: 2.2rem auto; border-radius: 2px;
+}
+
+.article-body { max-width: 700px; margin: 0 auto; }
+
+.article-section { margin-bottom: 3.2rem; }
+.article-section-label {
+  font-size: 0.67rem; font-weight: 700; letter-spacing: 0.11em;
+  text-transform: uppercase; color: var(--red); margin-bottom: 0.55rem;
+  display: block;
+}
+.article-h2 {
+  font-size: clamp(1.25rem, 2.4vw, 1.65rem); font-weight: 800;
+  letter-spacing: -0.6px; line-height: 1.18; color: var(--text); margin-bottom: 1.1rem;
+}
+.article-p {
+  font-size: 0.98rem; color: var(--text-2); line-height: 1.92; margin-bottom: 1.2rem;
+}
+.article-p:last-child { margin-bottom: 0; }
+
+.pullquote {
+  margin: 2.8rem 0; padding: 1.6rem 2rem;
+  border-left: 3px solid var(--red);
+  background: var(--surface); border-radius: 0 14px 14px 0;
+  box-shadow: var(--shadow-sm);
+}
+.pullquote p {
+  font-size: 1.18rem; font-weight: 600; line-height: 1.58;
+  color: var(--text); font-style: italic; margin: 0; letter-spacing: -0.2px;
+}
+
+.article-break {
+  width: 100%; height: 1px; background: var(--border); margin: 2.8rem 0;
+}
+
+/* Before / After message comparison */
+.message-compare {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem;
+  max-width: 760px; margin: 3rem auto;
+}
+.msg-panel {
+  border-radius: 18px; padding: 1.5rem 1.4rem;
+  border: 1px solid var(--border); box-shadow: var(--shadow-sm);
+}
+.msg-panel-label {
+  font-size: 0.67rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; margin-bottom: 0.9rem; display: block;
+}
+.msg-before { background: var(--surface-2); }
+.msg-before .msg-panel-label { color: var(--muted); }
+.msg-after  { background: #fff; border-color: rgba(196,18,48,0.18); }
+.msg-after  .msg-panel-label { color: var(--red); }
+
+.msg-from {
+  font-size: 0.76rem; color: var(--muted-light); margin-bottom: 0.5rem;
+  font-weight: 500; font-family: 'SF Mono', 'Fira Mono', monospace;
+}
+.msg-bubble {
+  background: #e8e5de; border-radius: 14px 14px 14px 4px;
+  padding: 0.8rem 0.95rem; font-size: 0.85rem; color: var(--text-2); line-height: 1.65;
+}
+.msg-brand-row { display: flex; align-items: center; gap: 10px; margin-bottom: 0.9rem; }
+.msg-brand-avatar {
+  width: 34px; height: 34px; border-radius: 9px; flex-shrink: 0;
+  background: linear-gradient(135deg, var(--red), #e8294a);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.72rem; font-weight: 800; color: white;
+}
+.msg-brand-name     { font-size: 0.88rem; font-weight: 700; color: var(--text); line-height: 1.2; }
+.msg-brand-verified { font-size: 0.7rem; font-weight: 600; color: var(--green); }
+.msg-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 0.85rem 0.95rem;
+}
+.msg-card-title   { font-size: 0.85rem; font-weight: 700; color: var(--text); margin-bottom: 0.3rem; }
+.msg-card-body    { font-size: 0.8rem; color: var(--muted); line-height: 1.65; margin-bottom: 0.75rem; }
+.msg-card-actions { display: flex; gap: 0.45rem; flex-wrap: wrap; }
+.msg-card-btn     { font-size: 0.75rem; font-weight: 600; padding: 6px 11px; border-radius: 7px; border: none; cursor: default; }
+.msg-card-btn-primary   { background: var(--red); color: white; }
+.msg-card-btn-secondary { background: var(--blue-tint); color: var(--blue); border: 1px solid rgba(26,74,138,0.2); }
+
+/* Article closing card */
+.article-closing {
+  max-width: 700px; margin: 0 auto 2rem;
+  padding: 2.5rem 2.8rem; border-radius: 20px;
+  background: linear-gradient(135deg, rgba(196,18,48,0.04) 0%, rgba(26,74,138,0.03) 100%);
+  border: 1px solid rgba(196,18,48,0.14);
+}
+.article-closing p {
+  font-size: 1rem; color: var(--text-2); line-height: 1.9; margin-bottom: 1rem;
+}
+.article-closing p:last-child { margin-bottom: 0; font-weight: 600; color: var(--text); }
+.article-nav {
+  max-width: 700px; margin: 2.5rem auto 0;
+  display: flex; gap: 1rem; flex-wrap: wrap; justify-content: flex-start;
+  padding-top: 2rem; border-top: 1px solid var(--border);
+}
+
+/* ── PHILOSOPHY CARD (HOMEPAGE) ──────────────────────── */
+.home-philosophy { margin-top: 3rem; }
+.philosophy-card {
+  display: grid; grid-template-columns: 1fr 300px; gap: 3rem;
+  align-items: center; padding: 2.8rem 3rem;
+  border-color: rgba(196,18,48,0.16);
+  background: linear-gradient(135deg, rgba(196,18,48,0.04) 0%, rgba(26,74,138,0.03) 100%);
+  position: relative; overflow: hidden;
+}
+.philosophy-card::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
+  background: linear-gradient(180deg, var(--red), rgba(196,18,48,0.25));
+}
+.philosophy-card-left .section-label { margin-bottom: 0.8rem; }
+.philosophy-quote {
+  font-size: 1.28rem; font-weight: 600; font-style: italic;
+  color: var(--text); line-height: 1.52; letter-spacing: -0.3px;
+  margin: 0 0 1.1rem; quotes: none;
+}
+.philosophy-desc { font-size: 0.9rem; color: var(--muted); line-height: 1.75; }
+.philosophy-card-right {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 0.9rem;
+}
+.philosophy-eyebrow {
+  font-size: 0.67rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted); margin: 0;
+}
+.philosophy-card-right h3 {
+  font-size: 1.1rem; font-weight: 800; color: var(--text);
+  letter-spacing: -0.4px; line-height: 1.2; margin: 0;
+}
+
 /* ── LEGAL PAGES ─────────────────────────────────────── */
 .legal-body {
   display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2.5rem;
@@ -651,7 +809,11 @@ footer a:hover { color: var(--text); }
   .nav-links     { display: none; }
   .chip          { display: none; }
   .footer-links  { flex-direction: column; gap: 0.6rem; align-items: center; }
-  .use-case-grid { grid-template-columns: 1fr 1fr; }
+  .use-case-grid   { grid-template-columns: 1fr 1fr; }
+  .message-compare { grid-template-columns: 1fr; }
+  .philosophy-card { grid-template-columns: 1fr; gap: 1.8rem; }
+  .philosophy-card-right { align-items: flex-start; }
+  .article-closing { padding: 2rem 1.6rem; }
   .trust-grid    { grid-template-columns: 1fr; }
   .home-section-card { padding: 2rem 1.6rem; }
   .home-cta-inner    { padding: 2rem 1.6rem; }
