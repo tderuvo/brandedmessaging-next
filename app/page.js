@@ -184,6 +184,13 @@ export default function Home() {
           <p className="home-section-body">
             That is the fall up from SMS: better when possible, reachable when necessary.
           </p>
+          <Link href="/the-fall-up-from-sms" className="home-section-link">
+            Read the full philosophy
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </Link>
         </div>
       </section>
 
