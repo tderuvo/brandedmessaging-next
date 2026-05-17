@@ -30,7 +30,7 @@ export default function Privacy() {
           <p>
             This privacy policy applies to <strong>Branded Messaging</strong>, an independent
             educational and professional services organization operating at{' '}
-            <strong>brandedmessaging-next.com</strong> and <strong>brandedmessaging.org</strong>.
+            <strong>brandedmessaging.com</strong> and <strong>brandedmessaging.org</strong>.
             We are based in Canada and are subject to the{' '}
             <em>Personal Information Protection and Electronic Documents Act</em> (PIPEDA) and
             applicable provincial privacy legislation.

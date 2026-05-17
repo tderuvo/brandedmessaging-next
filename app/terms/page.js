@@ -31,7 +31,7 @@ export default function Terms() {
             This website is operated by <strong>Branded Messaging</strong> (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or
             &ldquo;our&rdquo;), an independent educational and professional services organization focused
             on RCS, A2P messaging, and branded business communication across North America.
-            Our primary domain is <strong>brandedmessaging-next.com</strong> and we also operate
+            Our primary domain is <strong>brandedmessaging.com</strong> and we also operate
             under <strong>brandedmessaging.org</strong>.
           </p>
           <p>

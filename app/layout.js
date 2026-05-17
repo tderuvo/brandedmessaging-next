@@ -3,8 +3,26 @@ import Nav    from '@/components/Nav';
 import Footer from '@/components/Footer';
 
 export const metadata = {
+  metadataBase: new URL('https://brandedmessaging.com'),
   title:       'Branded Messaging | The Human-Friendly Side of RCS',
   description: 'Learn how branded messaging helps businesses move beyond plain SMS with verified sender identity, rich customer experiences, campaign strategy, RCS, A2P messaging, and SMS fallback.',
+  alternates: {
+    canonical: 'https://brandedmessaging.com',
+  },
+  openGraph: {
+    type:        'website',
+    url:         'https://brandedmessaging.com',
+    siteName:    'Branded Messaging',
+    title:       'Branded Messaging | The Human-Friendly Side of RCS',
+    description: 'Learn how branded messaging helps businesses move beyond plain SMS with verified sender identity, rich customer experiences, campaign strategy, RCS, A2P messaging, and SMS fallback.',
+    locale:      'en_CA',
+  },
+  twitter: {
+    card:        'summary_large_image',
+    site:        '@brandedmsg',
+    title:       'Branded Messaging | The Human-Friendly Side of RCS',
+    description: 'Learn how branded messaging helps businesses move beyond plain SMS with verified sender identity, rich customer experiences, campaign strategy, RCS, A2P messaging, and SMS fallback.',
+  },
 };
 
 export default function RootLayout({ children }) {
