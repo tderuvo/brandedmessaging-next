@@ -25,12 +25,14 @@ export default function Nav() {
       </Link>
 
       <div className="nav-links">
-        <Link href="/"        className={`nav-link ${path === '/'        ? 'active' : ''}`}>Home</Link>
-        <Link href="/about"   className={`nav-link ${path === '/about'   ? 'active' : ''}`}>About</Link>
-        <Link href="/contact" className={`nav-link ${path === '/contact' ? 'active' : ''}`}>Contact</Link>
+        <Link href="/"           className={`nav-link ${path === '/'                ? 'active' : ''}`}>Home</Link>
+        <Link href="/guides"     className={`nav-link ${path === '/guides'          ? 'active' : ''}`}>Guides</Link>
+        <Link href="/newsletter" className={`nav-link ${path === '/newsletter'      ? 'active' : ''}`}>Newsletter</Link>
+        <Link href="/about"      className={`nav-link ${path === '/about'           ? 'active' : ''}`}>About</Link>
+        <Link href="/contact"    className={`nav-link ${path === '/contact'         ? 'active' : ''}`}>Contact</Link>
       </div>
 
-      <Link href="/contact" className="nav-cta">Get in Touch →</Link>
+      <Link href="/managed-services" className="nav-cta">Managed Services →</Link>
     </nav>
   );
 }

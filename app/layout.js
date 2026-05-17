@@ -3,8 +3,8 @@ import Nav    from '@/components/Nav';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title:       'Branded Messaging',
-  description: 'The human-friendly side of RCS — verified, rich, branded business messaging across North America.',
+  title:       'Branded Messaging | The Human-Friendly Side of RCS',
+  description: 'Learn how branded messaging helps businesses move beyond plain SMS with verified sender identity, rich customer experiences, campaign strategy, RCS, A2P messaging, and SMS fallback.',
 };
 
 export default function RootLayout({ children }) {
