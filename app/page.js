@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import PhoneMockup from '@/components/PhoneMockup';
 
 const USE_CASES = [
@@ -320,6 +321,16 @@ export default function Home() {
             </p>
           </div>
           <div className="philosophy-card-right">
+            <Link href="/the-fall-up-from-sms" className="philosophy-thumb-link">
+              <Image
+                src="/businessmessagingevolution.png"
+                alt="The evolution of business messaging from smoke signals to RCS branded conversations."
+                width={1536}
+                height={1024}
+                className="philosophy-thumb"
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+              />
+            </Link>
             <p className="philosophy-eyebrow">Signature Article</p>
             <h3 id="philosophy-heading">The Fall Up From SMS</h3>
             <Link href="/the-fall-up-from-sms" className="btn-primary">

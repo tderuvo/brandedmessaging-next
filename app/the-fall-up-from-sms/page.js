@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'The Fall Up From SMS — Branded Messaging',
@@ -35,6 +36,20 @@ export default function TheFallUpFromSMS() {
       </header>
 
       <div className="article-red-rule"></div>
+
+      {/* ── EDITORIAL IMAGE ── */}
+      <figure className="article-figure">
+        <Image
+          src="/businessmessagingevolution.png"
+          alt="Illustration showing the evolution of business messaging from smoke signals and SMS to branded messaging and RCS."
+          width={1536}
+          height={1024}
+          style={{ width: '100%', height: 'auto', display: 'block' }}
+        />
+        <figcaption className="article-figure-caption">
+          From anonymous signals to recognizable branded conversations.
+        </figcaption>
+      </figure>
 
       {/* ── BODY ── */}
       <div className="article-body">
