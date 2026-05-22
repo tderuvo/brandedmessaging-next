@@ -110,9 +110,10 @@ export default function TheFallUpFromSMS() {
           <p className="article-p">
             That friction is not hypothetical. It shows up in open rates, in click-through
             behavior, in the support calls that come in because a customer was not sure whether
-            the message they received from a short code was legitimate. The invisible cost of
-            anonymous messaging is not just engagement — it is trust, and once trust erodes in
-            a channel, it does not recover on its own.
+            the message they received from a short code was legitimate. The invisible cost of{' '}
+            <Link href="/why-anonymous-business-messaging-is-losing-customer-trust" className="article-inline-link">anonymous messaging</Link>{' '}
+            is not just engagement — it is trust, and once trust erodes in a channel, it does
+            not recover on its own.
           </p>
         </div>
 
@@ -367,6 +368,9 @@ export default function TheFallUpFromSMS() {
 
       {/* ── ARTICLE NAV ── */}
       <div className="article-nav">
+        <Link href="/why-anonymous-business-messaging-is-losing-customer-trust" className="btn-secondary">
+          Why Anonymous Messaging Is Losing Trust →
+        </Link>
         <Link href="/what-is-branded-messaging" className="btn-secondary">
           What Is Branded Messaging? →
         </Link>

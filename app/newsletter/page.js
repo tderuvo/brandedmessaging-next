@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Newsletter() {
   const [submitted, setSubmitted] = useState(false);
@@ -36,8 +37,9 @@ export default function Newsletter() {
               <polyline points="22,6 12,13 2,6"/>
             </svg>
           </div>
-          <h3>Carrier & Operator Updates</h3>
+          <h3>Carrier &amp; Operator Updates</h3>
           <p>Stay ahead of policy changes, A2P 10DLC updates, and RCS enablement announcements from major US and Canadian carriers.</p>
+          <Link href="/newsletter/carrier-operator-updates" style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--red)', textDecoration: 'none', marginTop: '0.8rem', display: 'inline-block' }}>Read more →</Link>
         </div>
         <div className="card pillar">
           <div className="pillar-icon" style={{ background: 'rgba(6,182,212,0.1)', border: '1px solid rgba(6,182,212,0.2)' }}>

@@ -94,9 +94,23 @@
 
   <url>
     <loc>https://brandedmessaging.com/the-fall-up-from-sms</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://brandedmessaging.com/why-anonymous-business-messaging-is-losing-customer-trust</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://brandedmessaging.com/newsletter/carrier-operator-updates</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>

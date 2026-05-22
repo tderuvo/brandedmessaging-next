@@ -119,6 +119,27 @@ export default function Canada() {
         </p>
       </div>
 
+      <div className="home-section-card" style={{ borderRadius: '20px', border: '1px solid rgba(196,18,48,0.16)', background: 'linear-gradient(135deg, rgba(196,18,48,0.04) 0%, rgba(26,74,138,0.03) 100%)', padding: '2.8rem 3rem', marginBottom: '2rem', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '3px', background: 'linear-gradient(90deg, var(--red), #e8294a)' }}></div>
+        <p className="section-label">Insights</p>
+        <h2 style={{ fontSize: 'clamp(1.25rem, 2.5vw, 1.7rem)', fontWeight: 800, letterSpacing: '-0.6px', lineHeight: 1.18, color: 'var(--text)', marginBottom: '1rem' }}>
+          Why Anonymous Business Messaging Is Losing Customer Trust
+        </h2>
+        <p style={{ fontSize: '0.97rem', color: 'var(--muted)', lineHeight: 1.82, maxWidth: '640px', marginBottom: '1.4rem' }}>
+          An editorial perspective on the gap between how brands present themselves everywhere
+          else and how they still appear in many customers&rsquo; inboxes — and why trust,
+          recognition, and verified identity are increasingly central to customer communication
+          in Canada and across North America.
+        </p>
+        <Link href="/why-anonymous-business-messaging-is-losing-customer-trust" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '0.85rem', fontWeight: 600, color: 'var(--red)', textDecoration: 'none' }}>
+          Read the Article
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+            <polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </Link>
+      </div>
+
       <div className="card card-lg cta-strip">
         <div>
           <h2>Ready to explore campaign strategy?</h2>

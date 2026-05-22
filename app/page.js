@@ -333,6 +333,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── INSIGHTS: ANONYMOUS MESSAGING ── */}
+      <section className="home-section home-insights" aria-labelledby="insights-anon-heading">
+        <div className="home-section-inner home-section-card home-section-insights">
+          <p className="section-label">Insights</p>
+          <h2 id="insights-anon-heading" className="home-section-title">
+            Why Anonymous Business Messaging Is Losing Customer Trust
+          </h2>
+          <p className="home-section-body">
+            An editorial perspective on trust, recognition, and the future of branded customer
+            communication — and why the gap between how brands present themselves everywhere
+            else and how they still appear in many customers&rsquo; inboxes is one of the
+            quieter but more consequential issues in modern customer experience.
+          </p>
+          <Link href="/why-anonymous-business-messaging-is-losing-customer-trust" className="home-section-link">
+            Read the Article
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </Link>
+        </div>
+      </section>
+
       {/* ── FINAL CTA ── */}
       <section className="home-cta-section" aria-label="Get started with campaign guides">
         <div className="home-cta-inner card card-lg">
