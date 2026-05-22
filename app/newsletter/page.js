@@ -49,6 +49,7 @@ export default function Newsletter() {
           </div>
           <h3>RCS Adoption Trends</h3>
           <p>Monthly device and operator coverage updates so your team always knows where RCS rich delivery is available in North America.</p>
+          <Link href="/newsletter/rcs-adoption-trends" style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--red)', textDecoration: 'none', marginTop: '0.8rem', display: 'inline-block' }}>Read more →</Link>
         </div>
         <div className="card pillar">
           <div className="pillar-icon" style={{ background: 'rgba(99,102,241,0.1)', border: '1px solid rgba(99,102,241,0.2)' }}>

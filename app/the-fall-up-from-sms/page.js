@@ -371,6 +371,9 @@ export default function TheFallUpFromSMS() {
         <Link href="/why-anonymous-business-messaging-is-losing-customer-trust" className="btn-secondary">
           Why Anonymous Messaging Is Losing Trust →
         </Link>
+        <Link href="/newsletter/rcs-adoption-trends" className="btn-secondary">
+          RCS Adoption Trends →
+        </Link>
         <Link href="/what-is-branded-messaging" className="btn-secondary">
           What Is Branded Messaging? →
         </Link>
