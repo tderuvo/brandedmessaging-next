@@ -61,6 +61,7 @@ export default function Newsletter() {
           </div>
           <h3>Campaign Benchmarks</h3>
           <p>Real delivery, read, and engagement benchmarks across verticals — retail, finance, healthcare, and more.</p>
+          <Link href="/newsletter/campaign-benchmarks" style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--red)', textDecoration: 'none', marginTop: '0.8rem', display: 'inline-block' }}>Read more →</Link>
         </div>
       </div>
 

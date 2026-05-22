@@ -1052,6 +1052,96 @@ footer a:hover { color: var(--text); }
   font-size: 0.8rem; font-weight: 600; color: var(--red); margin-top: auto;
 }
 
+/* ── CAMPAIGN BENCHMARKS ARTICLE ────────────────────── */
+
+/* Message experience note (below before/after mockup) */
+.bench-experience-note {
+  margin-top: 0.75rem; padding: 0.6rem 0.8rem;
+  border-radius: 8px; font-size: 0.75rem; line-height: 1.55;
+}
+.bench-experience-note-before {
+  background: rgba(0,0,0,0.04); color: var(--muted);
+  border: 1px solid var(--border);
+}
+.bench-experience-note-after {
+  background: rgba(196,18,48,0.05); color: var(--red);
+  border: 1px solid rgba(196,18,48,0.2);
+}
+
+/* Vertical before/after comparison (text-based) */
+.bench-vertical-compare {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+  max-width: 760px; margin: 0 auto 3rem;
+}
+.bench-vc-side {
+  border-radius: 14px; padding: 1.4rem 1.5rem;
+  border: 1px solid var(--border); box-shadow: var(--shadow-sm);
+}
+.bench-vc-before { background: var(--surface-2); }
+.bench-vc-after  { background: #fff; border-color: rgba(196,18,48,0.18); }
+.bench-vc-label {
+  font-size: 0.67rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; margin-bottom: 0.85rem; display: block;
+}
+.bench-vc-before .bench-vc-label { color: var(--muted); }
+.bench-vc-after  .bench-vc-label { color: var(--red); }
+.bench-vc-list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-direction: column; gap: 0.6rem;
+}
+.bench-vc-list li {
+  font-size: 0.82rem; line-height: 1.6; padding-left: 1rem; position: relative;
+}
+.bench-vc-before .bench-vc-list li { color: var(--muted); }
+.bench-vc-after  .bench-vc-list li { color: var(--text-2); }
+.bench-vc-list li::before { content: '—'; position: absolute; left: 0; color: var(--muted-light); }
+.bench-vc-after .bench-vc-list li::before { color: rgba(196,18,48,0.4); }
+
+/* Benchmark dimensions card */
+.bench-dimensions {
+  max-width: 760px; margin: 0 auto 1rem;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 18px; padding: 2rem 2.2rem; box-shadow: var(--shadow-sm);
+  position: relative; overflow: hidden;
+}
+.bench-dimensions::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--red), #e8294a);
+}
+.bench-dimensions-label {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--red); margin-bottom: 1.4rem;
+}
+.bench-dimensions-grid {
+  display: grid; grid-template-columns: 1fr auto 1fr; gap: 1.2rem; align-items: start;
+}
+.bench-dim-arrow {
+  font-size: 1.4rem; color: var(--muted-light); font-weight: 300;
+  align-self: center; padding-top: 1.8rem;
+}
+.bench-dim-heading {
+  font-size: 0.75rem; font-weight: 700; color: var(--muted);
+  letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 0.8rem;
+}
+.bench-dim-new .bench-dim-heading { color: var(--red); }
+.bench-dim-list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-direction: column; gap: 0.55rem;
+}
+.bench-dim-list li {
+  font-size: 0.82rem; line-height: 1.6; color: var(--text-2);
+  padding-left: 1rem; position: relative;
+}
+.bench-dim-list li::before { content: '–'; position: absolute; left: 0; color: var(--muted-light); }
+.bench-dim-new .bench-dim-list li::before { color: rgba(196,18,48,0.45); }
+
+/* Responsive */
+@media (max-width: 860px) {
+  .bench-vertical-compare  { grid-template-columns: 1fr; }
+  .bench-dimensions-grid   { grid-template-columns: 1fr; }
+  .bench-dim-arrow         { display: none; }
+}
+
 /* RCS market comparison panels */
 .rcs-market-compare {
   display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem;
